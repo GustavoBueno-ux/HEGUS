@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 98.4vw;
+}
+
+.titulo {
+    font-size: 48px;
+    color: aqua;
+}
+
+.subtitulo {
+    font-size: 36px;
+}
+
+.imagem {
+    width: 50%;
+}
+
+.texto {
+    width: 50%;
+    font-size: 24px;
+}
+
+strong {
+    color: aqua;
+}
+
+.descricao {
+    font-size: 36px;
+    max-width: 70%;
+}
+
+footer {
+    background-color: aqua;
+    width: 100vw;
+    color: black;
+    text-align: center;
+}
+
+.lema {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 620px) {
+    .titulo {
+        font-size: 5vw;
+    }
+
+    .subtitulo {
+        font-size: 5vw;
+    }
+}
